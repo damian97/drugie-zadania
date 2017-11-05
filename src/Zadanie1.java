@@ -29,6 +29,8 @@ public class Zadanie1 {
     
     
     //Kolejna poprwka
+    
+    //I kolejna
 
 	}
 
