@@ -27,6 +27,8 @@ public class Zadanie1 {
     
     //Drobna poprawka
     
+    
+    //Kolejna poprwka
 
 	}
 
