@@ -17,14 +17,14 @@ public class Zadanie2 {
 		}else
 		{
 			
-			while (A < B) {
+			do {
 				
 				A++;
 				suma = suma + A;
 				
-			}
-			
-			System.out.println("Suma ci¹gu liczb od A do B to: ");
+			}while(A < B);
+				
+			System.out.println("Suma ciagu liczb od A do B to: ");
 			System.out.println(suma);
 					
 		}
