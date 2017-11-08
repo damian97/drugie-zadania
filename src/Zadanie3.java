@@ -1,27 +1,29 @@
 import java.util.Scanner;
 
 public class Zadanie3 {
-
+	
 	public static void main(String[] args) {
 	
-		Scanner reader = new Scanner(System.in);
+	Scanner odczyt = new Scanner(System.in);
+	
+	int start = 1;
+	int koniec = odczyt.nextInt();
+	
+	while(start < koniec) {
 		
-	    int a = reader.nextInt();
+		System.out.println(start);
 		
-	    
-	    int licznik = 1;
-	    
-	    while ( licznik <= a ) {
-	    	
-	    	 System.out.println(licznik);
-	    
-	    	 licznik = licznik*2;
-	    	 
-	    	}
+		start = start * 2;
 		
 		
-
-		
+	}
+	
+	
+	
+	
+	
+	
+	
 	}
 	
 }
