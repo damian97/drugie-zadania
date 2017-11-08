@@ -17,15 +17,16 @@ public class Zadanie2 {
 		}else
 		{
 			
-			do {
+			
+			for (int i = A; i <= B; i++) {
 				
-				A++;
-				suma = suma + A;
+				suma = suma + i;
+
 				
-			}while(A < B);
-				
-			System.out.println("Suma ciagu liczb od A do B to: ");
-			System.out.println(suma);
+			}
+			
+			
+			System.out.println(suma - A);
 					
 		}
 		
@@ -34,3 +35,5 @@ public class Zadanie2 {
 	}
 	
 }
+
+
